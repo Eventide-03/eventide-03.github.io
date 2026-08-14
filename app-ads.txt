@@ -1,0 +1,14 @@
+# app-ads.txt — IAB Tech Lab authorized sellers for apps
+#
+# Publish this file at the ROOT of the developer website listed on the app's
+# App Store page, i.e. https://<your-domain>/app-ads.txt
+#
+# It must be:
+#   * served over HTTPS at the root path (not /docs/app-ads.txt)
+#   * plain text (Content-Type: text/plain)
+#   * reachable by Google's crawler (no login wall, no bot blocking)
+#
+# The domain has to match the developer website on the store listing exactly,
+# including www vs non-www.
+
+google.com, pub-4454590222834745, DIRECT, f08c47fec0942fa0
