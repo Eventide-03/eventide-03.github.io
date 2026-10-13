@@ -138,6 +138,8 @@ footer nav { margin-left: auto; display: flex; gap: 16px; }
 /* Per-app accent. Each app page sets --primary/--teal on <body> so the shared
    components pick up that app's colour without duplicating the stylesheet. */
 body.app-football { --primary: #3DDC84; --teal: #2FBF71; }
+body.app-hockey { --primary: #7CC4FF; --teal: #3D8BD9; }
+body.app-xi { --primary: #3DDC84; --teal: #1F9E5C; }
 
 .apps { display: grid; gap: 16px; padding-bottom: 72px; }
 
@@ -165,6 +167,12 @@ body.app-football { --primary: #3DDC84; --teal: #2FBF71; }
 }
 .app-card .mark.football {
   background: #DCE9D5; color: #111; font-family: Georgia, "Times New Roman", serif;
+}
+.app-card .mark.hockey {
+  background: #DCEBF7; color: #111; font-family: Georgia, "Times New Roman", serif;
+}
+.app-card .mark.xi {
+  background: #D7EFDC; color: #111; font-family: Georgia, "Times New Roman", serif;
 }
 .app-card h3 { margin: 0 0 4px; font-size: 18px; letter-spacing: -0.01em; }
 .app-card p { margin: 0; color: var(--muted); font-size: 14.5px; }
