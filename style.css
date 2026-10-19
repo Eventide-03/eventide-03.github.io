@@ -49,6 +49,7 @@ header .wrap {
   display: grid; place-items: center;
   color: #06251A; font-weight: 800; font-size: 13px;
 }
+img.logo { display: block; background: none; object-fit: cover; }
 .brand { font-weight: 700; letter-spacing: -0.01em; }
 header nav { margin-left: auto; display: flex; gap: 18px; font-size: 14px; }
 header nav a { color: var(--muted); }
@@ -162,6 +163,7 @@ body.app-xi { --primary: #3DDC84; --teal: #1F9E5C; }
   font-weight: 800; font-size: 20px;
   letter-spacing: -0.02em;
 }
+.app-card img.mark { object-fit: cover; display: block; }
 .app-card .mark.quantify {
   background: linear-gradient(135deg, #2EE6A6, #22D3C5); color: #06251A;
 }
